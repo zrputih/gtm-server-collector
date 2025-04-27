@@ -1,0 +1,12 @@
+{
+  "name": "gtm-server-collector",
+  "version": "1.0.0",
+  "description": "Simple server collector for GTM events",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
