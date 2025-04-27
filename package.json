@@ -1,14 +1,12 @@
 {
-  "name": "gtm-server-forwarder",
+  "name": "gtm-server-collector",
   "version": "1.0.0",
-  "description": "Simple GTM Server Side Forwarder",
+  "description": "Simple server for GTM Server Side.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2"
-  },
-  "author": "Bella",
-  "license": "MIT"
+  }
 }
