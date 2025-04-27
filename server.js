@@ -7,8 +7,8 @@ app.post('/collect', (req, res) => {
   res.status(200).send('OK');
 });
 
-app.get('/', (req, res) => {
-  res.send('GTM Server Collector is running 🚀');
+app.get('gtm/debug', (req, res) => {
+ res.status(200).send('GTM Server Collector is running 🚀');
 });
 
 const PORT = process.env.PORT || 8080;
